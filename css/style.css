@@ -1,0 +1,137 @@
+body{
+    padding:0;
+    margin:0;
+    /* background-color: #bac8e7; */
+}
+.main-container{
+    padding:20px;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 3em;
+    letter-spacing: 4px;
+    font-family:'Lucida Sans Regular';
+    font-weight: bolder;
+    color: #0d57f78c;
+    text-shadow: 0 0 2px #3943588c;
+    /* line-height: 50px; */
+}
+.flex-container{
+    margin:0 auto;
+    padding:40px;
+}
+.description-container{
+    text-align: center;
+    padding:40px;
+    margin-right: auto;
+    margin:0 auto;
+    width: 500px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    box-shadow:  0 0 10px #173766;
+    border: 1px solid #fff;
+}
+.skills-container{
+    background-color: #6e98f3;
+    border-radius: 10px 100px 10px 10px;
+}
+.skills{
+    width: 300px;
+    margin: 10px auto;
+}
+.frontend{
+    width: 300px;
+    margin: 10px auto;
+}
+h2{
+    font-size: 1.8em;
+    font-family: cursive;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5em;
+    color: #0a40b4ef;
+    text-shadow: 0 0 2px #3943588c;
+}
+.backend{
+    width: 300px;
+    margin: 10px auto;
+}
+nav{
+    display: flex;
+}
+.my-name{
+    margin:0;
+    padding:5px 5px 5px 10px;
+    font-size: 2em;
+}
+.nav-bar{
+    margin-left: auto;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li{
+    font-size:1.5em;
+    margin:5px 20px;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    background-color: #6e98f3;
+    padding:10px;
+    margin: 5px 0px 0px 0px;
+    border-radius: 50px 10px;
+}
+footer ul li a{
+    font-size: 0.7em;
+    color: #000;
+    margin:0 20px;
+}
+footer ul {
+    display: flex;
+    width:200px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 965px){
+    body{
+        background-color: white;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+    .description-container{
+        text-align: center;
+        padding:10px;
+        margin-right: auto;
+        margin:0 auto;
+        width: 500px;
+    }
+    h1{
+        letter-spacing: 0;
+        font-size: 2.5em;
+    }
+    .nav-bar ul li{
+        font-size:1em;
+        margin:3px 10px;
+        list-style: none;
+    }
+    .my-name{
+        padding:5px;
+        font-size: 2.2em;
+    }
+}
