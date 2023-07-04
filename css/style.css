@@ -39,8 +39,9 @@ img{
     border: 1px solid #fff;
 }
 .skills-container{
-    background-color: #6e98f3;
+    /* background-color: #6e98f3; */
     border-radius: 10px 100px 10px 10px;
+    background-color: #a2bdf7;
 }
 .skills{
     width: 300px;
@@ -83,26 +84,96 @@ nav{
     margin:5px 20px;
     list-style: none;
 }
+.nav-bar ul li:hover{
+    opacity:0.5;
+}
 a{
     text-decoration:none;
 }
 footer{
     align-items: center;
     text-align: center;
-    background-color: #6e98f3;
-    padding:10px;
+    background-color: #a2bdf7;
+    padding:25px 0px;
     margin: 5px 0px 0px 0px;
     border-radius: 50px 10px;
 }
 footer ul li a{
     font-size: 0.7em;
     color: #000;
-    margin:0 20px;
+    margin:0 5px;
 }
 footer ul {
     display: flex;
-    width:200px;
+    width:100px;
     margin: 0 auto;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 0;
+    box-shadow: none;
+    border:none;
+    margin:0 5px;
+}
+.icon-footer{
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+    border: none;
+}
+.toggle-button{
+ display: none;
+}
+.toggle{
+ display: none;
+}
+h3{
+    margin: 5px auto;
+    color:#353a41;
+}
+@media only screen and (max-width:500px){
+    .aside-bar{
+        display: block;
+        background-color: #a2bdf7;
+        display: relative;
+        margin-right: -60px;
+        padding:40px 50px;
+        border-radius: 0 0 0 5px;
+        overflow: hidden;
+        transition-delay: 5s;
+    }
+    aside{
+        display: none;  
+    }
+    .nav-bar ul{
+        padding:0;
+        display: block;
+    }
+    .nav-bar ul li{
+       padding:5px;
+    }
+    .nav-bar ul li a{
+      color:#000;
+      letter-spacing: 1px;
+    }
+    .toggle-button{
+        display: block;
+        border: none;
+        border-radius: 0;
+        width: 40px;
+        height: 40px;
+        box-shadow: none;
+        background-color: #4d9efa;
+        border: 2px solid rgb(60, 70, 80);
+        border-radius: 5px;
+    }
+    .toggle{
+        display: block;
+        padding:10px;
+        height: 35px;
+        margin-left: 0 auto 0 0;
+    }
 }
 
 @media only screen and (max-width: 965px){
