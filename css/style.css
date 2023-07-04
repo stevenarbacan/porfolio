@@ -11,15 +11,6 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-@keyframes typing {
-    from{width: 0}
-    to{width:100%}
-}
-@keyframes blink-caret {
-    from, to{border-color: transparent}
-    50% {border-color: orange;}
-    
-}
 h1{
     font-size: 3em;
     letter-spacing: 4px;
