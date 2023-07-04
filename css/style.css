@@ -138,15 +138,21 @@ h3{
         background-color: #a2bdf7;
         margin-right: -60px;
         padding: 40px 0px;
-        width: 200px;
+        width: 150px;
         border-radius: 0 0 0 5px;
         visibility: visible;
+        height: auto;
     }
     aside{
         visibility: hidden; 
         transition: all 1s ease-in-out;
-        width: 0;
+        width: 0px;
+        height: 0px;
         overflow: hidden;
+        margin-right: -60px;
+    }
+    aside ul li{
+        transition: all 1s ease-in-out;
     }
     aside ul li a{
         transition: all 1s ease-in-out;
@@ -155,8 +161,11 @@ h3{
         text-align: center;
         transition: all 1s ease-in-out;
     }
+    .nav-bar{
+        padding: 0px;
+    }
     .nav-bar ul{
-        padding:0;
+        padding:0px;
         display: block;
     }
     .nav-bar ul li{
