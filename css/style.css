@@ -11,6 +11,15 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+@keyframes typing {
+    from{width: 0}
+    to{width:100%}
+}
+@keyframes blink-caret {
+    from, to{border-color: transparent}
+    50% {border-color: orange;}
+    
+}
 h1{
     font-size: 3em;
     letter-spacing: 4px;
@@ -136,15 +145,24 @@ h3{
     .aside-bar{
         display: block;
         background-color: #a2bdf7;
-        display: relative;
         margin-right: -60px;
-        padding:40px 50px;
+        padding: 40px 0px;
+        width: 200px;
         border-radius: 0 0 0 5px;
-        overflow: hidden;
-        transition-delay: 5s;
+        visibility: visible;
     }
     aside{
-        display: none;  
+        visibility: hidden; 
+        transition: all 1s ease-in-out;
+        width: 0;
+        overflow: hidden;
+    }
+    aside ul li a{
+        transition: all 1s ease-in-out;
+    }
+    aside ul{
+        text-align: center;
+        transition: all 1s ease-in-out;
     }
     .nav-bar ul{
         padding:0;
